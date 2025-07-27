@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.hypothesis/
+htmlcov/
+.ipynb_checkpoints/
+.mypy_cache/
+.dmypy.json
+mypy_primer_cache/
+cython_debug/
+.ruff_cache
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook specific (if you run and save outputs)
+# *.ipynb
+# *.ipynb_checkpoints/
+
+# Data and Models (Crucial for your project)
+# data/
+# *.csv
+
+# Ignore all generated model files
+# This assumes your 'models' folder is at the root level, like take2/models/
+# app/models/*.pkl
+# Or if you want to ignore the whole models folder:
+# models/

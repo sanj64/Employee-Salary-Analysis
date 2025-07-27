@@ -1,0 +1,8 @@
+streamlit~=1.35.0  # Or a more recent stable version
+pandas~=2.2.0      # Or a more recent stable version
+numpy~=1.26.0      # Or a more recent stable version
+scikit-learn==1.6.1# Match the version used for saving models, or higher if you re-saved with a newer one.
+                   # If your models were saved with 1.6.1, consider pinning to scikit-learn==1.6.1
+                   # If you re-ran notebook with 1.7.0, then use scikit-learn~=1.7.0
+xgboost~=2.0.0     # Or a more recent stable version
+joblib~=1.4.0      # Or a more recent stable version
