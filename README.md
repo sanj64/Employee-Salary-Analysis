@@ -15,30 +15,6 @@ In today's dynamic labor market, ensuring fair and competitive compensation is c
 * **Interactive Web Application:** Built with Streamlit, providing an intuitive user interface for real-time predictions.
 * **Modular Design:** Separates model training (Jupyter Notebook) from deployment (Streamlit app) and stores pre-trained assets.
 
-## Project Structure
-
-	
-	Employee-Salary-Analysis/
-	├── app/
-	│   └── app.py                  # Streamlit web application
-	├── models/                     # Directory for trained models, scalers, and encoders
-	│   ├── best_salary_predictor_xgb_model.pkl
-	│   ├── minmax_scaler.pkl
-	│   ├── income_label_encoder.pkl
-	│   └── workclass_encoder.pkl
-	│   └── marital.status_encoder.pkl
-    │   └── native.country_encoder.pkl
-    │   └── occupation_encoder.pkl
-    │   └── race_encoder.pkl
-    │   └── relationship_encoder.pkl
-    │   └── sex_encoder.pkl
-	├── data/                       # Raw dataset
-	│   └── adult.csv
-	├── employee_salary_analysis.ipynb # Jupyter Notebook for model training and asset generation
-	├── .gitignore                  # Specifies intentionally untracked files to ignore
-	├── README.md                   # Project overview and setup instructions
-	└── requirements.txt            # Python dependencies
-	
 	
 ## Setup and Installation
 
@@ -101,7 +77,3 @@ This project utilizes the [Adult Income Dataset](https://www.kaggle.com/datasets
 ## Contributing
 
 This project is a part of my 6-Week AI & ML Internship offered by Edunet Foundation x IBM SkillsBuild. Feel free to fork this repository, submit issues, or propose pull requests.
-
-## License
-
-This project is open-sourced under the MIT License.
